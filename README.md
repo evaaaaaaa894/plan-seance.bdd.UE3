@@ -18,6 +18,21 @@ Pour rappel: `virtualenv env -p python3` ou `python -m venv env`
 
 `pip install -r requirements.txt`
 
+<style>.alert {
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 4px;
+  border-left: 5px solid #e69819;
+  background-color: #fff6e6;
+  color: #333;
+}
+.alert-warning {
+  border-left-color: #e69819;
+}   </style>
+<div role="alert" class="alert alert-warning">
+  Si une erreur survient à l'installation de <code>psycopg2</code>, de nombreux sujets permettent de la résoudre, comme <a href="https://stackoverflow.com/questions/5420789/how-to-install-psycopg2-with-pip-on-python">celui-ci</a>. Remplacer <code>psycopg2</code> par <code>psycopg2-binary</code> peut suffire.
+</div>   
+
 ---
 
 ## Étapes à suivre pour remplir la base
