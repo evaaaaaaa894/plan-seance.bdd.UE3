@@ -70,8 +70,8 @@ python3 run.py
 - Au lancement, le script :
   1. Charge les variables du fichier `.env`.
   2. Vérifie si la base `pgDatabase` existe, sinon la crée.
-  3. Exécute tous les fichiers SQL du dossier `sql/`.
-  4. Importe tous les fichiers CSV du dossier `csv/` dans le schéma `pgSchemaImportsCsv`.
+  3. Importe tous les fichiers CSV du dossier `csv/` dans le schéma `pgSchemaImportsCsv`.
+  4. Exécute tous les fichiers SQL du dossier `sql/`.
 
 - Les logs affichent :
   - la création de la base si nécessaire ;
